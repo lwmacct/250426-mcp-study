@@ -6,5 +6,4 @@ tasks:
     silent: true
     cmds:
       - |
-
         npx @modelcontextprotocol/inspector --config config.json --server server
