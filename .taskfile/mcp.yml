@@ -1,0 +1,10 @@
+version: "3"
+
+tasks:
+  inspector:
+    desc: "使用 inspector 检查 MCP 资源"
+    silent: true
+    cmds:
+      - |
+
+        npx @modelcontextprotocol/inspector --config config.json --server server

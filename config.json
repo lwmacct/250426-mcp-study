@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "everything": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-everything"],
+      "env": {
+        "hello": "Hello MCP!"
+      }
+    },
+    "server": {
+      "command": "python",
+      "args": ["src/server.py"],
+      "env": {
+        "key": "value",
+        "key2": "value2"
+      }
+    }
+  }
+}
