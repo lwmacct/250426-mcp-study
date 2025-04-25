@@ -9,9 +9,9 @@
     },
     "server": {
       "command": "python",
-      "args": ["src/server.py"],
+      "args": ["server.py"],
       "env": {
-        "key": "value",
+        "key1": "value1",
         "key2": "value2"
       }
     }
